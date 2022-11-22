@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/9694501724.js" crossorigin="anonymous"></script>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="nasi.css">
+        <link rel="stylesheet" href="tambah.css">
+        <script src="pemesanan.js"></script>
+        <title>Family Minang</title>
+        <link rel="icon" href="lrm.png">
+        <style>
+        h3{
+            font-family: 'Montserrat';
+            font-size: 24px;
+            font-style: bold;
+        }
+        th{
+            font-family: 'Poppins';
+            font-size: 24px;
+        }
+        body{
+            background-color: #fff2e6;
+        }
+        h1{
+            font-family: 'Poppins';
+            font-size: 48px;
+        }
+        </style>
+</head>
+<body>
+        <table border="0" align="center" width="90%">
+            <thead>
+                <tr>
+                    <th class="navpe" align="left" width="40%">
+                        <h1>
+                            <a href="home.html" style="color:black;text-decoration: none;margin-right: 70px;">
+                                <i class="fa-solid fa-circle-left"></i>
+                            </a>
+                            Pesanan
+                        </h1>
+                    </th>
+                    <th>
+                        <a href=nasi.html style="text-decoration: none;">
+                            <button class="navp">
+                                <i class="fa-solid fa-bowl-food" style="margin-right: 15px;"></i>
+                                <b>Nasi</b>
+                            </button>
+                        </a>
+
+                        <a href=minuman.html style="text-decoration: none;">
+                            <button class="navp1">
+                                <i class="fa-solid fa-mug-saucer" style="margin-right: 15px;"></i>
+                                <b>Minuman</b>
+                            </button>
+                        </a>
+                        <a href=lauk.html style="text-decoration: none;">
+                            <button class="navp2">
+                                <i class="fa-solid fa-bowl-food" style="margin-right: 15px;"></i>
+                                <b>Lauk</b>
+                            </button>
+                        </a>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <table align="center" cellpadding="30px" border="0" style="border-collapse: collapse;margin-top: 50px;" width="80%">
+                        <tr>
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/1.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Dendeng <br>
+                                    Rp. 25.000 <br>
+                                    <section>
+                                        <button class="btnt">Tambah Pesanan</button>
+                                        <span class="ovr"></span>
+                                  
+                                        <div class="btcrd">
+                                            <div class="cbtn"><i class="fa-solid fa-circle-xmark"></i></div>
+                                            <h1 style="margin-bottom:50px;">Pemesanan</h1>
+                                            <label style="margin-right: 27px;">Nama</label>
+                                            <input type="text" id="nama"><br><br>
+                                        
+                                            <label style="margin-right: 16px;">Alamat</label>
+                                            <input type="text" id="alamat"><br><br>
+                                        
+                                            <label style="margin-right: 13px;">Jumlah</label>
+                                            <input type="number" id="jumlah"></b><br><br><hr><br>
+
+                                            <label style="margin-right: 37px;">Total</label>
+                                            <input type="number" id="total_bayar" disabled style="cursor: not-allowed;"><br><br><br>
+                                        
+                                            <!-- <input class="btm" type="button" onclick="hitung_paket()" value="Hitung"></input>
+                                            <input class="btm" type="reset" value="Ulang"></input> -->
+                        
+                                          <div class="bttn">
+                                            <input class="cbtnn" type="button" onclick="cnfrm()" value="Confirm"></input>
+                                            <!-- <button class="cbtn">Confirm</button> -->
+                                          </div>
+                                        </div>
+                                    </section>    
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/2.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Ayam Gulai <br>
+                                    Rp. 23.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+                                
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/4.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Rendang <br>
+                                    Rp. 23.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="space" colspan="5">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/6.png" alt="foto" width="250px" style="margin-right: 30px;">   
+                                <h3> 
+                                    Nasi Telur <br>
+                                    Rp. 15.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/1.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Ikan Bakar <br>
+                                    Rp. 25.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+                                
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/2.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Tunjang <br>
+                                    Rp. 24.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="space" colspan="5">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/4.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Limpa<br>
+                                    Rp. 23.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/6.png" alt="foto" width="250px" style="margin-right: 30px;">   
+                                <h3> 
+                                    Nasi Otak<br>
+                                    Rp. 23.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+
+                            <td class="space" width="10%">
+                                
+                            </td>
+
+                            <td align="center" class="card" width="10%">
+                                <img src="nb/1.png" alt="foto" width="250px" style="margin-right: 20px;">   
+                                <h3> 
+                                    Nasi Tambunsu<br>
+                                    Rp. 25.000 <br>
+                                    <button class="tmbh">Tambah Pesanan</button>
+                                </h3>
+                            </td>
+                        </tr>
+                    </table>
+                </tr>
+            </tbody>
+        </table>
+        <script>
+            const section = document.querySelector("section"),
+            ovr = document.querySelector(".ovr"),
+            showBtn = document.querySelector(".btnt"),
+            closeBtn = document.querySelector(".cbtn");
+      
+            showBtn.addEventListener("click", () => section.classList.add("active"));
+      
+            ovr.addEventListener("click", () =>
+              section.classList.remove("active")
+            );
+      
+            closeBtn.addEventListener("click", () =>
+              section.classList.remove("active")
+            );
+        </script>
+</body>
+</html>

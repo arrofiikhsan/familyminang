@@ -1,0 +1,130 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+/* section {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #e3f2fd;
+} */
+/* font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  background: #4070f4;
+  border-radius: 6px;
+  cursor: pointer; */
+/* section.active .btnt {
+  display: none;
+} */
+/* .ovr {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+} */
+/* section.active .ovr {
+  opacity: 1;
+  pointer-events: auto;
+} */
+
+/* .btcrd i {
+  font-size: 70px;
+  color: #4070f4;
+} */
+
+/* .btcrd h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #333;
+}
+.btcrd h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+} */
+
+.btnt {
+    margin-top: 20px;
+    color: white;
+    font-family: 'poppins';
+    font-size: 24px;
+    width: 263px;
+    height: 58px;
+    left: 27px;
+    top: 348px;
+    background: #6F3C0E;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.cbtnn{
+    margin-top: 20px;
+    color: white;
+    font-family: 'poppins';
+    font-size: 24px;
+    width: 263px;
+    height: 58px;
+    left: 27px;
+    top: 348px;
+    background: #6F3C0E;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.btnt:hover {
+  background-color:  #603612;
+}
+
+.btcrd {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.btcrd {
+  max-width: 380px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 24px;
+  background-color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transform: translate(-50%, -50%) scale(1.2);
+  
+}
+
+.btcrd i {
+  float: right;
+}
+
+section.active .btcrd {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+}
+.btcrd .bttn {
+  margin-top: 25px;
+}
+.btcrd button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 10px;
+}
+

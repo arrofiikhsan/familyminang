@@ -1,0 +1,56 @@
+/* Pemesanan nasi*/
+.navp{
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: 'poppins';
+    color: #A8A2A2;
+    width: 180px;
+    height: 62px;
+    background: white;
+    border: solid white;
+    border-radius: 16px;
+}
+.navp1{
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: 'poppins';
+    color: #A8A2A2;
+    width: 200px;
+    height: 62px;
+    background: white;
+    border: solid white;
+    border-radius: 16px;
+}
+
+.navp2{
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: 'poppins';
+    width: 180px;
+    height: 62px;
+    background: #FFE8D1;
+    border: solid #FFE8D1;
+    border-radius: 16px;
+}
+
+.tmbh{
+    margin-top: 20px;
+    color: white;
+    font-family: 'poppins';
+    font-size: 24px;
+    width: 263px;
+    height: 58px;
+    left: 27px;
+    top: 348px;
+    background: #6F3C0E;
+    border-radius: 16px;
+}
+
+.space{
+    background-color: #fff2e6;
+}
+
+.card{
+    background-color: white;
+    border-radius: 16px;
+}
